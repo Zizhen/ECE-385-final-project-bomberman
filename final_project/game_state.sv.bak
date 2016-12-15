@@ -1,0 +1,14 @@
+module game_state(
+		 input Clk,
+		 input start,
+		 output logic load_map,
+		 
+);
+
+enum logic [1:0] {init, game_begin} curr_state, next_state;
+
+always_ff @ (posedge Clk)
+begin
+	
+
+end

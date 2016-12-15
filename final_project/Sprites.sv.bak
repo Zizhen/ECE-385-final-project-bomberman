@@ -1,0 +1,13 @@
+module grass(input [5:0]X,Y,
+				 output [3:0] color
+);
+	parameter width = 40;
+	parameter height = 40;
+	
+	parameter[0:height*width-1][3:0] grass_sprite = {
+	
+	};
+
+
+
+endmodule

@@ -1,0 +1,15 @@
+module mux4to1 (input [1:0] sel,
+					 input  logic[4:0] grass_in,brick_in
+					 output logic[4:0] Dout
+					 );
+					 
+always @ (Din or sel)
+
+begin 
+if   (sel==1b'0)
+Dout = grass_in;
+else
+Dout = brick_in;
+end 
+
+endmodule 

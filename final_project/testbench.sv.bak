@@ -1,0 +1,15 @@
+module testbench();
+
+timeunit 10ns;	// Half clock cycle at 50 MHz
+			// This is the amount of time represented by #1 
+timeprecision 1ns;
+
+logic [9:0] player1_X, player1_Y, DrawX, DrawY,
+logic [7:0]  Red, Green, Blue
+
+color_mapper color_mapper0(.*);
+
+
+
+
+endmodule

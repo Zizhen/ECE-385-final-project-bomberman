@@ -1,0 +1,139 @@
+module colortable(input ch_on,
+						input [3:0] color,
+						output [7:0] red, green, blue
+);
+
+logic [7:0] red_wire, blue_wire, green_wire;
+
+always_comb 
+begin
+	if (ch_on==1'b1)
+	begin
+	unique case (color)
+		4'h0:
+		begin
+			red_wire=8'hfb;
+			green_wire=8'hcc;
+			blue_wire=8'hff;
+		end
+		
+		4'h1://light brown
+		begin
+			red_wire=8'hfb;
+			green_wire=8'hc7;
+			blue_wire=8'h60;
+		end
+		
+		4'h2://medium brown
+		begin
+			red_wire=8'hd2;
+			green_wire=8'h97;
+			blue_wire=8'h31;
+		end
+		
+		4'h3://dark brown
+		begin
+			red_wire=8'h9A;
+			green_wire=8'h61;
+			blue_wire=8'h15;
+		end
+		
+		4'h4://light green
+		begin
+			red_wire=8'h8f;
+			green_wire=8'hdf;
+			blue_wire=8'h43;
+		end
+		
+		4'h5://
+		begin
+			red_wire=8'hff;
+			green_wire=8'h00;
+			blue_wire=8'h00;
+		end
+		
+		4'h6:
+		begin
+			red_wire=8'hc0;
+			green_wire=8'hc0;
+			blue_wire=8'hc0;
+		end
+		
+		4'h7:
+		begin
+			red_wire=8'h80;
+			green_wire=8'h80;
+			blue_wire=8'h80;
+		end
+		
+		4'h8:
+		begin
+			red_wire=8'hfb;
+			green_wire=8'hcc;
+			blue_wire=8'hff;
+		end
+		
+		4'h9://light brown
+		begin
+			red_wire=8'hfb;
+			green_wire=8'hc7;
+			blue_wire=8'h60;
+		end
+		
+		4'ha://medium brown
+		begin
+			red_wire=8'hd2;
+			green_wire=8'h97;
+			blue_wire=8'h31;
+		end
+		
+		4'hb://dark brown
+		begin
+			red_wire=8'h9A;
+			green_wire=8'h61;
+			blue_wire=8'h;
+		end
+		
+		4'hc:
+		begin
+			red_wire=8'h99;
+			green_wire=8'h33;
+			blue_wire=8'h00;
+		end
+		
+		4'hd:
+		begin
+			red_wire=8'hff;
+			green_wire=8'h00;
+			blue_wire=8'h00;
+		end
+		
+		4'he:
+		begin
+			red_wire=8'hc0;
+			green_wire=8'hc0;
+			blue_wire=8'hc0;
+		end
+		
+		4'hf:
+		begin
+			red_wire=8'h80;
+			green_wire=8'h80;
+			blue_wire=8'h80;
+		end
+		
+	endcase
+	end
+	else
+	  begin
+			red_wire=8'h33;
+			green_wire=8'h99;
+			blue_wire=8'hff;
+	  end
+end
+
+assign red=red_wire;
+assign green = green_wire;
+assign blue = blue_wire;
+
+endmodule

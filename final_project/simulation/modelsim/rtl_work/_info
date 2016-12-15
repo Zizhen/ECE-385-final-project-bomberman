@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/UIUC/ECE385/final_project/simulation/modelsim
+vtristate
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+!s110 1480195597
+!i10b 1
+!s100 Kh0gA[BFIaaPgnNYzGW4g3
+IV[YXVWhjL3YF3d5DTU<=b0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 tristate_sv_unit
+S1
+R0
+w1474928200
+8D:/UIUC/ECE385/final_project/tristate.sv
+FD:/UIUC/ECE385/final_project/tristate.sv
+L0 12
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1480195597.910000
+!s107 D:/UIUC/ECE385/final_project/tristate.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/UIUC/ECE385/final_project|D:/UIUC/ECE385/final_project/tristate.sv|
+!i113 1
+Z4 o-sv -work work
+Z5 !s92 -sv -work work +incdir+D:/UIUC/ECE385/final_project
+vvga_controller
+R1
+!s110 1480195598
+!i10b 1
+!s100 eE;HE`4APn9b9GN2hz[zS1
+IOH^AXdU??aDaOlOC1eoc31
+R2
+!s105 VGA_controller_sv_unit
+S1
+R0
+w1443472988
+8D:/UIUC/ECE385/final_project/VGA_controller.sv
+FD:/UIUC/ECE385/final_project/VGA_controller.sv
+L0 25
+R3
+r1
+!s85 0
+31
+!s108 1480195598.020000
+!s107 D:/UIUC/ECE385/final_project/VGA_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/UIUC/ECE385/final_project|D:/UIUC/ECE385/final_project/VGA_controller.sv|
+!i113 1
+R4
+R5

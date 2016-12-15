@@ -1,0 +1,8 @@
+module bomb_state_machine (input Clk, Reset, Run,
+									output logic [1:0] state_index
+);
+//0: start
+//1: placed
+//2: explode
+//3: gone
+
